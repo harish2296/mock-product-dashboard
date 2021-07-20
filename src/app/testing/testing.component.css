@@ -1,0 +1,105 @@
+.details-container {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 225px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ 
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.top-band {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+
+.top-band:hover {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.top-band-quantity {
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.accordian-header {
+    background: lightgray;
+    padding: 5px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.selling-qty {
+    color: lightskyblue;
+}
+
+.card-title {
+    border-bottom : 1px solid lightgray;
+}
+
+.accordian {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.accordian-body {
+    border: 1px solid lightgray;
+    padding-top: 15px;
+}
+
+.top-qty {
+    padding-left: 5px;
+    font-size: 25px;
+    color: deepskyblue;
+    font-weight: 400;
+}
+
+.last-name {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.first-name {
+    margin: 0px;
+}
+
+.pie {
+    padding: 10px 20px 0 20px;
+}
+
+.pie-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pie-left p {
+font-size: 16px;
+color: #4d4d4d;
+}
+
+.pie-left span.green{
+    color: green;
+    font-size: 20px;
+}
+
+.pie-left span.orange{
+    color: orange;
+    font-size: 20px;
+}
+
+.pie-left span.blue{
+    color: blue;
+    font-size: 20px;
+}
